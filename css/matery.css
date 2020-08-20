@@ -266,7 +266,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right top, #663399, #6739ad, #6541c1, #5f49d7, #5352ed);
+    background-image: linear-gradient(to right top, #663399, #56358e, #483681, #3c3574, #333366);
     opacity: 0.9;
 }
 
@@ -580,7 +580,7 @@ header .go-back i {
 .bg-cover:after {
     -webkit-animation: rainbow 60s infinite;
     animation: rainbow 60s infinite;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 .bg-cover:before,
