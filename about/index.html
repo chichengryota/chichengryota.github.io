@@ -436,7 +436,7 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['春观夜樱, 夏望繁星, 秋赏满月, 冬会初雪。','谁还不曾年少一场, 肆意轻狂潇洒梦里有月光'],
+                        strings: ['春观夜樱, 夏望繁星, 秋赏满月, 冬会初雪。','总之岁月漫长, 然而值得等待。'],
                         startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
@@ -453,7 +453,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    var bannerUrl = "/medias/banner/" + (new Date().getHours()) % 6 + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -470,21 +470,21 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">2</a></span>
+    <span class="count"><a href="/">4</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/categories">1</a></span>
+    <span class="count"><a href="/categories">3</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">2</a></span>
+    <span class="count"><a href="/tags">4</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -500,21 +500,21 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">2</a></span>
+    <span class="count"><a href="/">4</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/categories">1</a></span>
+    <span class="count"><a href="/categories">3</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">2</a></span>
+    <span class="count"><a href="/tags">4</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -542,6 +542,21 @@
 
     <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2367650895" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2367650895" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://blog.csdn.net//Ryota1" class="tooltipped" target="_blank" data-tooltip="关注我的CSDN: https://blog.csdn.net//Ryota1" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">C</i>
     </a>
 
 
@@ -580,6 +595,21 @@
 
     <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2367650895" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2367650895" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://blog.csdn.net//Ryota1" class="tooltipped" target="_blank" data-tooltip="关注我的CSDN: https://blog.csdn.net//Ryota1" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">C</i>
     </a>
 
 
@@ -658,7 +688,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,2],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,4],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -700,7 +730,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Markdown","value":1}],
+                data: [{"name":"笔记","value":2},{"name":"技巧","value":1},{"name":"随笔","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -724,7 +754,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["Typora","Markdown"]
+                data: ["git","github","Typora","Markdown"]
             }
         ],
         yAxis: [
@@ -737,7 +767,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1],
+                data: [1,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -844,6 +874,18 @@
         <div class="tag-chips center-align">
             
             
+            <a href="/tags/git/">
+                <span class="chip center-align waves-effect waves-light chip-default">git</span>
+            </a>
+            
+            
+            
+            <a href="/tags/github/">
+                <span class="chip center-align waves-effect waves-light chip-default">github</span>
+            </a>
+            
+            
+            
             <a href="/tags/Typora/">
                 <span class="chip center-align waves-effect waves-light chip-default">Typora</span>
             </a>
@@ -919,13 +961,11 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2020</span>
-            <a href="/about" target="_blank">Ryota</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <a href="/about" target="_blank">By&nbsp;Ryota&nbsp;All Rights Reserved.</a>
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">297</span>&nbsp;字
+                class="white-color">2.1k</span>&nbsp;字
             
             
             
@@ -957,7 +997,7 @@
                     var startYear = "2020";
                     var startMonth = "8";
                     var startDate = "19";
-                    var startHour = "18";
+                    var startHour = "12";
                     var startMinute = "0";
                     var startSecond = "0";
                     var todayYear = today.getFullYear();
@@ -978,11 +1018,11 @@
                         diffMinutes * minutes) / seconds);
                     if (startYear == todayYear) {
                         document.getElementById("year").innerHTML = todayYear;
-                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffDays + " 天 " + diffHours +
                             " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
                     } else {
                         document.getElementById("year").innerHTML = startYear + " - " + todayYear;
-                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffYears + " 年 " + diffDays +
                             " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
                     }
                 }
@@ -1011,6 +1051,21 @@
 
     <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2367650895" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2367650895" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://blog.csdn.net//Ryota1" class="tooltipped" target="_blank" data-tooltip="关注我的CSDN: https://blog.csdn.net//Ryota1" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">C</i>
     </a>
 
 
@@ -1103,6 +1158,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"01/assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/01/assets/haru01.model.json"},"display":{"position":"left","width":200,"height":420},"mobile":{"show":false,"scale":0.3},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script></body>
 
 </html>

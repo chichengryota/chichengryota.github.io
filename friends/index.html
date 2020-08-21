@@ -429,7 +429,7 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['春观夜樱, 夏望繁星, 秋赏满月, 冬会初雪。','谁还不曾年少一场, 肆意轻狂潇洒梦里有月光'],
+                        strings: ['春观夜樱, 夏望繁星, 秋赏满月, 冬会初雪。','总之岁月漫长, 然而值得等待。'],
                         startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
@@ -446,7 +446,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    var bannerUrl = "/medias/banner/" + (new Date().getHours()) % 6 + '.jpg';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -776,13 +776,11 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2020</span>
-            <a href="/about" target="_blank">Ryota</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <a href="/about" target="_blank">By&nbsp;Ryota&nbsp;All Rights Reserved.</a>
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">297</span>&nbsp;字
+                class="white-color">2.1k</span>&nbsp;字
             
             
             
@@ -814,7 +812,7 @@
                     var startYear = "2020";
                     var startMonth = "8";
                     var startDate = "19";
-                    var startHour = "18";
+                    var startHour = "12";
                     var startMinute = "0";
                     var startSecond = "0";
                     var todayYear = today.getFullYear();
@@ -835,11 +833,11 @@
                         diffMinutes * minutes) / seconds);
                     if (startYear == todayYear) {
                         document.getElementById("year").innerHTML = todayYear;
-                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffDays + " 天 " + diffHours +
                             " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
                     } else {
                         document.getElementById("year").innerHTML = startYear + " - " + todayYear;
-                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                        document.getElementById("sitetime").innerHTML = "本站已运行 " + diffYears + " 年 " + diffDays +
                             " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
                     }
                 }
@@ -868,6 +866,21 @@
 
     <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2367650895" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2367650895" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="https://blog.csdn.net//Ryota1" class="tooltipped" target="_blank" data-tooltip="关注我的CSDN: https://blog.csdn.net//Ryota1" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">C</i>
     </a>
 
 
@@ -960,6 +973,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-</body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"01/assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/01/assets/haru01.model.json"},"display":{"position":"left","width":200,"height":420},"mobile":{"show":false,"scale":0.3},"react":{"opacityDefault":0.7,"opacityOnHover":0.8},"log":false});</script></body>
 
 </html>
