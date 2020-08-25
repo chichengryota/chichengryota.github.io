@@ -266,7 +266,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right top, #663399, #56358e, #483681, #3c3574, #333366);
+    background-image: linear-gradient(to right top, #3399cc, #4ba2d6, #60acdf, #72b5e9, #83bff2, #98c6f7, #abcefb, #bdd6ff, #d3dfff, #e5e9ff, #f3f3ff, #ffffff);
     opacity: 0.9;
 }
 
@@ -621,7 +621,7 @@ header .go-back i {
     font-weight: 400;
 }
 
-@-webkit-keyframes rainbow {
+/* @-webkit-keyframes rainbow {
 
     0%,
     100% {
@@ -711,7 +711,7 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
-}
+} */
 
 .index-card {
     margin-top: -10px;

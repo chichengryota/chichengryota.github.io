@@ -29,7 +29,6 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
     <!--添加一言-->
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
 
 <meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/atom.xml" title="Ryota's Blog" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
@@ -414,6 +413,7 @@
 
 </header>
 
+    <div id="weather-v2-plugin-simple"></div>
     
 
 
@@ -706,7 +706,7 @@ site:douban.com 亲密关系 intext:罗兰米勒</code></pre>
 <div id="article-share">
 
     
-    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <div class="social-share" data-sites="google,qq,qzone,wechat,weibo,douban,twitter,facebook" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
     <script src="/libs/share/js/social-share.min.js"></script>
     
 
@@ -1101,7 +1101,6 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
 
 
-    <div id="weather-v2-plugin-simple"></div>
     <footer class="page-footer bg-color">
     
     <div class="container row center-align" style="margin-bottom: 15px !important;">
@@ -1266,20 +1265,23 @@ $(function () {
             "modules": "10234",
             "background": 1,
             "tmpColor": "F8E71C",
-            "tmpSize": 16,
-            "cityColor": "F5A623",
-            "citySize": 16,
-            "aqiSize": 16,
-            "weatherIconSize": 24,
-            "alertIconSize": 18,
+            "tmpSize": "16",
+            "cityColor": "F5F5F5",
+            "citySize": "16",
+            "aqiSize": "16",
+            "weatherIconSize": "24",
+            "alertIconSize": "18",
             "padding": "10px 10px 10px 10px",
             "shadow": "1",
             "language": "auto",
             "borderRadius": "10",
-            "fixed": "false",
+            "city": "CN101241003",
+            "fixed": "true",
             "vertical": "middle",
             "horizontal": "center",
-            "key": "72NWphIGVf"
+            "left": "1314",
+            "top": "520",
+            "key": "TEFKNgjgJc"
         }
         }
     </script>
