@@ -6,7 +6,7 @@
   <link href="https://chichengryota.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://chichengryota.github.io.git/"/>
-  <updated>2020-10-06T03:39:54.408Z</updated>
+  <updated>2020-10-06T03:34:15.316Z</updated>
   <id>https://chichengryota.github.io.git/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="https://chichengryota.github.io.git/2020/10/06/ajax-feng-zhuang/"/>
-    <id>https://chichengryota.github.io.git/2020/10/06/ajax-feng-zhuang/</id>
-    <published>2020-10-06T03:10:07.271Z</published>
-    <updated>2020-10-06T03:39:54.408Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;Ajax-封装源码&quot;&gt;&lt;a href=&quot;#Ajax-封装源码&quot; class=&quot;headerlink&quot; title=&quot;Ajax 封装源码&quot;&gt;&lt;/a&gt;Ajax 封装源码&lt;/h3&gt;&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>一些打动人心的句子</title>
@@ -133,6 +112,56 @@
     
     
     <category term="less" scheme="https://chichengryota.github.io.git/tags/less/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ajax封装源码</title>
+    <link href="https://chichengryota.github.io.git/2020/09/20/ajax-feng-zhuang/"/>
+    <id>https://chichengryota.github.io.git/2020/09/20/ajax-feng-zhuang/</id>
+    <published>2020-09-20T08:27:49.000Z</published>
+    <updated>2020-10-06T03:46:39.672Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Ajax-封装源码&quot;&gt;&lt;a href=&quot;#Ajax-封装源码&quot; class=&quot;headerlink&quot; title=&quot;Ajax 封装源码&quot;&gt;&lt;/a&gt;Ajax 封装源码&lt;/h3&gt;&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://chichengryota.github.io.git/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Ajax" scheme="https://chichengryota.github.io.git/tags/Ajax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ajax封装源码</title>
+    <link href="https://chichengryota.github.io.git/2020/09/20/flex-dan-xing-he-mo-xing-fu-ben/"/>
+    <id>https://chichengryota.github.io.git/2020/09/20/flex-dan-xing-he-mo-xing-fu-ben/</id>
+    <published>2020-09-20T08:27:49.000Z</published>
+    <updated>2020-10-06T03:47:02.518Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Ajax-封装源码&quot;&gt;&lt;a href=&quot;#Ajax-封装源码&quot; class=&quot;headerlink&quot; title=&quot;Ajax 封装源码&quot;&gt;&lt;/a&gt;Ajax 封装源码&lt;/h3&gt;&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://chichengryota.github.io.git/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Ajax" scheme="https://chichengryota.github.io.git/tags/Ajax/"/>
     
   </entry>
   
