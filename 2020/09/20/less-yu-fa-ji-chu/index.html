@@ -681,17 +681,17 @@ div&amp;<span class="token hexcode">#123</span><span class="token punctuation">;
     <span class="token mixin-usage function">.p4</span><span class="token punctuation">;</span>
 &amp;<span class="token hexcode">#125</span><span class="token punctuation">;</span></code></pre>
 <h3 id="混合函数"><a href="#混合函数" class="headerlink" title="混合函数"></a>混合函数</h3><p>在混合函数中可以直接设置变量</p>
-<pre><code>.test(@w:100px,@h:200px,@bg-color:red)&amp;#123;
-    width: @w;
-    height: @h;
-    border: 1px solid @bg-color;
-&amp;#125;
-div&amp;#123;
-    //调用混合函数，按顺序传递参数
-    // .test(200px,300px,#bfa);
-    .test(300px);
-    // .test(@bg-color:red, @h:100px, @w:300px);
-&amp;#125;</code></pre>
+<pre class=" language-less"><code class="language-less"><span class="token number">.</span><span class="token function">test</span><span class="token punctuation">(</span><span class="token variable">@w<span class="token punctuation">:</span></span><span class="token number">100</span>px<span class="token punctuation">,</span><span class="token variable">@h<span class="token punctuation">:</span></span><span class="token number">200</span>px<span class="token punctuation">,</span><span class="token variable">@bg-color<span class="token punctuation">:</span></span>red<span class="token punctuation">)</span>&amp;<span class="token hexcode">#123</span><span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token variable">@w</span><span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token variable">@h</span><span class="token punctuation">;</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span>px solid <span class="token variable">@bg-color</span><span class="token punctuation">;</span>
+&amp;<span class="token hexcode">#125</span><span class="token punctuation">;</span>
+div&amp;<span class="token hexcode">#123</span><span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">//调用混合函数，按顺序传递参数</span>
+    <span class="token comment" spellcheck="true">// .test(200px,300px,#bfa);</span>
+    <span class="token number">.</span><span class="token function">test</span><span class="token punctuation">(</span><span class="token number">300</span>px<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">// .test(@bg-color:red, @h:100px, @w:300px);</span>
+&amp;<span class="token hexcode">#125</span><span class="token punctuation">;</span></code></pre>
 <h3 id="运算"><a href="#运算" class="headerlink" title="运算"></a>运算</h3><p>任何数字、颜色都可以参与运算</p>
 <pre class=" language-less"><code class="language-less"><span class="token variable">@base <span class="token punctuation">:</span></span> <span class="token number">10%</span><span class="token punctuation">;</span>
 <span class="token variable">@filter <span class="token punctuation">:</span></span> <span class="token variable">@base</span> <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">;</span>

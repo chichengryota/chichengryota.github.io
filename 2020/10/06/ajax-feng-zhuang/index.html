@@ -565,7 +565,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    543
+                    542
                 </div>
                 
 
@@ -587,108 +587,108 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="Ajax-封装源码"><a href="#Ajax-封装源码" class="headerlink" title="Ajax 封装源码"></a>Ajax 封装源码</h3><pre><code>ajax(&amp;#123;
-    type: 'get',
-    url: 'http://localhost:3000/',
-    data: &amp;#123;
-        name: 'zhangsan',
-        age: '20'
-    &amp;#125;,
-    header: &amp;#123;
-        'Content-Type': 'application/x-www-form-urlencoded'
-    &amp;#125;,
-    success: function(data) &amp;#123;
-        console.log(data);
-    &amp;#125;,
-    error: function(data) &amp;#123;
-        console.log(data);
-    &amp;#125;
-&amp;#125;);
+                <h3 id="Ajax-封装源码"><a href="#Ajax-封装源码" class="headerlink" title="Ajax 封装源码"></a>Ajax 封装源码</h3><pre class=" language-javascript"><code class="language-javascript"><span class="token function">ajax</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    type<span class="token punctuation">:</span> <span class="token string">'get'</span><span class="token punctuation">,</span>
+    url<span class="token punctuation">:</span> <span class="token string">'http://localhost:3000/'</span><span class="token punctuation">,</span>
+    data<span class="token punctuation">:</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        name<span class="token punctuation">:</span> <span class="token string">'zhangsan'</span><span class="token punctuation">,</span>
+        age<span class="token punctuation">:</span> <span class="token string">'20'</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">,</span>
+    header<span class="token punctuation">:</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token string">'Content-Type'</span><span class="token punctuation">:</span> <span class="token string">'application/x-www-form-urlencoded'</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">,</span>
+    success<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">,</span>
+    error<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-function ajax(options) &amp;#123;
-    // 设置默认参数，用户新传入的参数可以覆盖默认参数
-    let defaults = &amp;#123;
-        type: 'get',
-        url: '',
-        data: &amp;#123;&amp;#125;,
-        header: &amp;#123;
-            'Content-Type': 'application/x-www-form-urlencoded'
-        &amp;#125;,
-        success: function() &amp;#123;&amp;#125;,
-        error: function() &amp;#123;&amp;#125;
-    &amp;#125;
-    Object.assign(defaults, options);
+<span class="token keyword">function</span> <span class="token function">ajax</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">// 设置默认参数，用户新传入的参数可以覆盖默认参数</span>
+    <span class="token keyword">let</span> defaults <span class="token operator">=</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        type<span class="token punctuation">:</span> <span class="token string">'get'</span><span class="token punctuation">,</span>
+        url<span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+        data<span class="token punctuation">:</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">,</span>
+        header<span class="token punctuation">:</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            <span class="token string">'Content-Type'</span><span class="token punctuation">:</span> <span class="token string">'application/x-www-form-urlencoded'</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">,</span>
+        success<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">,</span>
+        error<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span><span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+    Object<span class="token punctuation">.</span><span class="token function">assign</span><span class="token punctuation">(</span>defaults<span class="token punctuation">,</span> options<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    // 定义变量
-    let type = defaults.type.toUpperCase(),
-        url = defaults.url,
-        data = defaults.data,
-        header = defaults.header,
-        success = defaults.success,
-        error = defaults.error,
-        dataArr = []，
-        params = '';
+    <span class="token comment" spellcheck="true">// 定义变量</span>
+    <span class="token keyword">let</span> type <span class="token operator">=</span> defaults<span class="token punctuation">.</span>type<span class="token punctuation">.</span><span class="token function">toUpperCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        url <span class="token operator">=</span> defaults<span class="token punctuation">.</span>url<span class="token punctuation">,</span>
+        data <span class="token operator">=</span> defaults<span class="token punctuation">.</span>data<span class="token punctuation">,</span>
+        header <span class="token operator">=</span> defaults<span class="token punctuation">.</span>header<span class="token punctuation">,</span>
+        success <span class="token operator">=</span> defaults<span class="token punctuation">.</span>success<span class="token punctuation">,</span>
+        error <span class="token operator">=</span> defaults<span class="token punctuation">.</span>error<span class="token punctuation">,</span>
+        dataArr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>，
+        params <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
 
-    // 创建 Ajax，兼容 IE 的写法
-    let xhr = XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+    <span class="token comment" spellcheck="true">// 创建 Ajax，兼容 IE 的写法</span>
+    <span class="token keyword">let</span> xhr <span class="token operator">=</span> XMLHttpRequest <span class="token operator">?</span> <span class="token keyword">new</span> <span class="token class-name">XMLHttpRequest</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">:</span> <span class="token keyword">new</span> <span class="token class-name">ActiveXObject</span><span class="token punctuation">(</span><span class="token string">'Microsoft.XMLHTTP'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    // 将 data 中要传递的对象类型参数转换为 &amp; 连接的字符串类型参数
-    for(let key in data)&amp;#123;
-        dataArr.push(key + '=' + data[key]);
-    &amp;#125;
-    params = dataArr.join('&amp;');
+    <span class="token comment" spellcheck="true">// 将 data 中要传递的对象类型参数转换为 &amp; 连接的字符串类型参数</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> key <span class="token keyword">in</span> data<span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        dataArr<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>key <span class="token operator">+</span> <span class="token string">'='</span> <span class="token operator">+</span> data<span class="token punctuation">[</span>key<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+    params <span class="token operator">=</span> dataArr<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">'&amp;'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    // GET 请求：将参数拼接到 URL 后边并发送请求
-    if(type == 'GET')&amp;#123;
-        url = url + '?' + params;
-        xhr.open(type, url.replace(/\?$/g,''), true); //true表示异步
-        xhr.send();
-    &amp;#125;
+    <span class="token comment" spellcheck="true">// GET 请求：将参数拼接到 URL 后边并发送请求</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>type <span class="token operator">==</span> <span class="token string">'GET'</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        url <span class="token operator">=</span> url <span class="token operator">+</span> <span class="token string">'?'</span> <span class="token operator">+</span> params<span class="token punctuation">;</span>
+        xhr<span class="token punctuation">.</span><span class="token function">open</span><span class="token punctuation">(</span>type<span class="token punctuation">,</span> url<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token regex">/\?$/g</span><span class="token punctuation">,</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//true表示异步</span>
+        xhr<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 
-    // POST 请求：获取参数请求格式类型，JSON 格式需先将对象类型转换为对象字符串类型
-    if(type === 'POST') &amp;#123;
-        let contentType = header['Content-Type'];
-        xhr.open(type, url, true); // true 表示异步
-        xhr.setRequestHeader('Content-Type', contentType);
-        if(contentType === 'application/json') &amp;#123;
-            xhr.send(JSON.stringify(data))
-        &amp;#125;
-        xhr.send(params);
-    &amp;#125;
+    <span class="token comment" spellcheck="true">// POST 请求：获取参数请求格式类型，JSON 格式需先将对象类型转换为对象字符串类型</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>type <span class="token operator">===</span> <span class="token string">'POST'</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token keyword">let</span> contentType <span class="token operator">=</span> header<span class="token punctuation">[</span><span class="token string">'Content-Type'</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+        xhr<span class="token punctuation">.</span><span class="token function">open</span><span class="token punctuation">(</span>type<span class="token punctuation">,</span> url<span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// true 表示异步</span>
+        xhr<span class="token punctuation">.</span><span class="token function">setRequestHeader</span><span class="token punctuation">(</span><span class="token string">'Content-Type'</span><span class="token punctuation">,</span> contentType<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>contentType <span class="token operator">===</span> <span class="token string">'application/json'</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            xhr<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>JSON<span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+        xhr<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>params<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 
-    // 获取响应数据的格式类型，JSON 格式的需将对象字符串类型转换为对象类型
-    xhr.onload = function() &amp;#123;
-        let contentType = xhr.getResponseHeader('Content-Type');
-        let responseText = xhr.responseText;
+    <span class="token comment" spellcheck="true">// 获取响应数据的格式类型，JSON 格式的需将对象字符串类型转换为对象类型</span>
+    xhr<span class="token punctuation">.</span>onload <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token keyword">let</span> contentType <span class="token operator">=</span> xhr<span class="token punctuation">.</span><span class="token function">getResponseHeader</span><span class="token punctuation">(</span><span class="token string">'Content-Type'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">let</span> responseText <span class="token operator">=</span> xhr<span class="token punctuation">.</span>responseText<span class="token punctuation">;</span>
 
-        if(contentType.includes('application/json')) &amp;#123;
-            responseText = JSON.parse(responseText)
-        &amp;#125;
+        <span class="token keyword">if</span><span class="token punctuation">(</span>contentType<span class="token punctuation">.</span><span class="token function">includes</span><span class="token punctuation">(</span><span class="token string">'application/json'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            responseText <span class="token operator">=</span> JSON<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>responseText<span class="token punctuation">)</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 
-        if((xhr.status&gt;=200 &amp;&amp; xhr.status&lt;300) || xhr.status==304) &amp;#123;
-            success(responseText);
-        &amp;#125;else&amp;#123;
-            error(responseText);
-        &amp;#125;
+        <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token punctuation">(</span>xhr<span class="token punctuation">.</span>status<span class="token operator">>=</span><span class="token number">200</span> <span class="token operator">&amp;&amp;</span> xhr<span class="token punctuation">.</span>status<span class="token operator">&lt;</span><span class="token number">300</span><span class="token punctuation">)</span> <span class="token operator">||</span> xhr<span class="token punctuation">.</span>status<span class="token operator">==</span><span class="token number">304</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            <span class="token function">success</span><span class="token punctuation">(</span>responseText<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token keyword">else</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            <span class="token function">error</span><span class="token punctuation">(</span>responseText<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 
-    &amp;#125;
-&amp;#125; </code></pre>
-<h3 id="JSONP-封装源码"><a href="#JSONP-封装源码" class="headerlink" title="JSONP 封装源码"></a>JSONP 封装源码</h3><pre><code>function jsonp(options) &amp;#123;
-    let params = '';
-    for(let attr in options.data)&amp;#123;
-        params += '&amp;' + attr + '=' + options.data[attr];
-    &amp;#125;
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span> </code></pre>
+<h3 id="JSONP-封装源码"><a href="#JSONP-封装源码" class="headerlink" title="JSONP 封装源码"></a>JSONP 封装源码</h3><pre class=" language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">jsonp</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    <span class="token keyword">let</span> params <span class="token operator">=</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">let</span> attr <span class="token keyword">in</span> options<span class="token punctuation">.</span>data<span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        params <span class="token operator">+</span><span class="token operator">=</span> <span class="token string">'&amp;'</span> <span class="token operator">+</span> attr <span class="token operator">+</span> <span class="token string">'='</span> <span class="token operator">+</span> options<span class="token punctuation">.</span>data<span class="token punctuation">[</span>attr<span class="token punctuation">]</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 
-    let callback = 'jsonp' + Math.random().toString().substring(2);
-    window[callback] = options.success;
+    <span class="token keyword">let</span> callback <span class="token operator">=</span> <span class="token string">'jsonp'</span> <span class="token operator">+</span> Math<span class="token punctuation">.</span><span class="token function">random</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">toString</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    window<span class="token punctuation">[</span>callback<span class="token punctuation">]</span> <span class="token operator">=</span> options<span class="token punctuation">.</span>success<span class="token punctuation">;</span>
 
-    let script = document.createElement('script');
-    script.src = options.url + '?callback=' + callback + params;
-    document.body.appendChild(script);
-    script.onload = function() &amp;#123;
-        document.body.removeChild(script);
-    &amp;#125;
-&amp;#125;</code></pre>
+    <span class="token keyword">let</span> script <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">createElement</span><span class="token punctuation">(</span><span class="token string">'script'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    script<span class="token punctuation">.</span>src <span class="token operator">=</span> options<span class="token punctuation">.</span>url <span class="token operator">+</span> <span class="token string">'?callback='</span> <span class="token operator">+</span> callback <span class="token operator">+</span> params<span class="token punctuation">;</span>
+    document<span class="token punctuation">.</span>body<span class="token punctuation">.</span><span class="token function">appendChild</span><span class="token punctuation">(</span>script<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    script<span class="token punctuation">.</span>onload <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        document<span class="token punctuation">.</span>body<span class="token punctuation">.</span><span class="token function">removeChild</span><span class="token punctuation">(</span>script<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
