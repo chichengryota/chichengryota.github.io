@@ -6,7 +6,7 @@
   <link href="https://chichengryota.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://chichengryota.github.io.git/"/>
-  <updated>2020-10-06T03:13:17.665Z</updated>
+  <updated>2020-10-06T03:38:29.084Z</updated>
   <id>https://chichengryota.github.io.git/</id>
   
   <author>
@@ -21,14 +21,16 @@
     <link href="https://chichengryota.github.io.git/2020/10/06/ajax-feng-zhuang/"/>
     <id>https://chichengryota.github.io.git/2020/10/06/ajax-feng-zhuang/</id>
     <published>2020-10-06T03:10:07.271Z</published>
-    <updated>2020-10-06T03:13:17.665Z</updated>
+    <updated>2020-10-06T03:38:29.084Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Ajax-封装源码&quot;&gt;&lt;a href=&quot;#Ajax-封装源码&quot; class=&quot;headerlink&quot; title=&quot;Ajax 封装源码&quot;&gt;&lt;/a&gt;Ajax 封装源码&lt;/h3&gt;&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code</summary>
+    <summary type="html">&lt;h3 id=&quot;Ajax-封装源码&quot;&gt;&lt;a href=&quot;#Ajax-封装源码&quot; class=&quot;headerlink&quot; title=&quot;Ajax 封装源码&quot;&gt;&lt;/a&gt;Ajax 封装源码&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;ajax(&amp;amp;#123;
+    type: &#39;get&#39;,
+</summary>
         
       
     
