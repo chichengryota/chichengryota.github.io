@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://chichengryota.github.io.git/2020/09/20/flex-dan-xing-he-mo-xing-fu-ben/</loc>
-    
-    <lastmod>2020-10-06</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://chichengryota.github.io.git/2020/09/20/ajax-feng-zhuang/</loc>
     
     <lastmod>2020-10-06</lastmod>
@@ -123,6 +116,13 @@
 
   
   <url>
+    <loc>https://chichengryota.github.io.git/tags/Ajax/</loc>
+    <lastmod>2020-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chichengryota.github.io.git/tags/git/</loc>
     <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
@@ -151,13 +151,6 @@
   </url>
   
   <url>
-    <loc>https://chichengryota.github.io.git/tags/javascript/</loc>
-    <lastmod>2020-10-06</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://chichengryota.github.io.git/tags/flex/</loc>
     <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
@@ -165,14 +158,14 @@
   </url>
   
   <url>
-    <loc>https://chichengryota.github.io.git/tags/less/</loc>
+    <loc>https://chichengryota.github.io.git/tags/javascript/</loc>
     <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://chichengryota.github.io.git/tags/Ajax/</loc>
+    <loc>https://chichengryota.github.io.git/tags/less/</loc>
     <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
