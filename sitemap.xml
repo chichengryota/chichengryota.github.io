@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chichengryota.github.io.git/2020/10/06/zhai-chao/</loc>
+    
+    <lastmod>2020-10-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/2020/10/06/ajax-feng-zhuang/</loc>
+    
+    <lastmod>2020-10-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/2020/09/20/js-shu-chu-xia-biao-de-ji-chong-fang-shi/</loc>
+    
+    <lastmod>2020-10-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/2020/09/20/flex-dan-xing-he-mo-xing/</loc>
+    
+    <lastmod>2020-10-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/2020/09/20/less-yu-fa-ji-chu/</loc>
+    
+    <lastmod>2020-10-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/2020/08/20/wo-de-di-yi-pian-bo-ke/</loc>
+    
+    <lastmod>2020-10-06</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chichengryota.github.io.git/2020/08/20/git-github-chang-yong-zhi-ling/</loc>
     
     <lastmod>2020-08-22</lastmod>
@@ -17,13 +59,6 @@
   
   <url>
     <loc>https://chichengryota.github.io.git/2020/08/21/markdown-ru-men-ji-yu-fa/</loc>
-    
-    <lastmod>2020-08-21</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chichengryota.github.io.git/2020/08/20/wo-de-di-yi-pian-bo-ke/</loc>
     
     <lastmod>2020-08-21</lastmod>
     
@@ -74,7 +109,7 @@
 
   <url>
     <loc>https://chichengryota.github.io.git/</loc>
-    <lastmod>2020-08-29</lastmod>
+    <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -82,28 +117,49 @@
   
   <url>
     <loc>https://chichengryota.github.io.git/tags/git/</loc>
-    <lastmod>2020-08-29</lastmod>
+    <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chichengryota.github.io.git/tags/github/</loc>
-    <lastmod>2020-08-29</lastmod>
+    <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chichengryota.github.io.git/tags/Typora/</loc>
-    <lastmod>2020-08-29</lastmod>
+    <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chichengryota.github.io.git/tags/Markdown/</loc>
-    <lastmod>2020-08-29</lastmod>
+    <lastmod>2020-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/tags/flex/</loc>
+    <lastmod>2020-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/tags/javascript/</loc>
+    <lastmod>2020-10-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/tags/less/</loc>
+    <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -112,21 +168,21 @@
   
   <url>
     <loc>https://chichengryota.github.io.git/categories/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-08-29</lastmod>
+    <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chichengryota.github.io.git/categories/%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2020-08-29</lastmod>
+    <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://chichengryota.github.io.git/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2020-08-29</lastmod>
+    <lastmod>2020-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

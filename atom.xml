@@ -6,7 +6,7 @@
   <link href="https://chichengryota.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://chichengryota.github.io.git/"/>
-  <updated>2020-08-21T13:11:35.971Z</updated>
+  <updated>2020-10-06T03:13:17.665Z</updated>
   <id>https://chichengryota.github.io.git/</id>
   
   <author>
@@ -15,6 +15,126 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://chichengryota.github.io.git/2020/10/06/ajax-feng-zhuang/"/>
+    <id>https://chichengryota.github.io.git/2020/10/06/ajax-feng-zhuang/</id>
+    <published>2020-10-06T03:10:07.271Z</published>
+    <updated>2020-10-06T03:13:17.665Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Ajax-封装源码&quot;&gt;&lt;a href=&quot;#Ajax-封装源码&quot; class=&quot;headerlink&quot; title=&quot;Ajax 封装源码&quot;&gt;&lt;/a&gt;Ajax 封装源码&lt;/h3&gt;&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一些打动人心的句子</title>
+    <link href="https://chichengryota.github.io.git/2020/10/06/zhai-chao/"/>
+    <id>https://chichengryota.github.io.git/2020/10/06/zhai-chao/</id>
+    <published>2020-10-06T03:04:40.000Z</published>
+    <updated>2020-10-06T03:13:52.666Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;People come and go, we struggled with laughter and tears,&lt;br&gt;and all the years have gone by,still Ihave you by my side.</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://chichengryota.github.io.git/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>flex弹性盒模型用法</title>
+    <link href="https://chichengryota.github.io.git/2020/09/20/flex-dan-xing-he-mo-xing/"/>
+    <id>https://chichengryota.github.io.git/2020/09/20/flex-dan-xing-he-mo-xing/</id>
+    <published>2020-09-20T08:30:42.000Z</published>
+    <updated>2020-10-06T03:09:28.749Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;flex弹性盒模型用法&quot;&gt;&lt;a href=&quot;#flex弹性盒模型用法&quot; class=&quot;headerlink&quot; title=&quot;flex弹性盒模型用法&quot;&gt;&lt;/a&gt;flex弹性盒模型用法&lt;/h2&gt;&lt;h3 id=&quot;flex-弹性盒、伸缩盒&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://chichengryota.github.io.git/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="flex" scheme="https://chichengryota.github.io.git/tags/flex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js输出下标的几种方式</title>
+    <link href="https://chichengryota.github.io.git/2020/09/20/js-shu-chu-xia-biao-de-ji-chong-fang-shi/"/>
+    <id>https://chichengryota.github.io.git/2020/09/20/js-shu-chu-xia-biao-de-ji-chong-fang-shi/</id>
+    <published>2020-09-20T08:29:33.000Z</published>
+    <updated>2020-10-06T03:12:28.564Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;使用原生js给每个li绑定onclick点击事件-输出每条li的下标（索引）的几种方式&quot;&gt;&lt;a href=&quot;#使用原生js给每个li绑定onclick点击事件-输出每条li的下标（索引）的几种方式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://chichengryota.github.io.git/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="javascript" scheme="https://chichengryota.github.io.git/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>less语法基础</title>
+    <link href="https://chichengryota.github.io.git/2020/09/20/less-yu-fa-ji-chu/"/>
+    <id>https://chichengryota.github.io.git/2020/09/20/less-yu-fa-ji-chu/</id>
+    <published>2020-09-20T08:28:14.000Z</published>
+    <updated>2020-10-06T03:01:33.301Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;less语法总结&quot;&gt;&lt;a href=&quot;#less语法总结&quot; class=&quot;headerlink&quot; title=&quot;less语法总结&quot;&gt;&lt;/a&gt;less语法总结&lt;/h2&gt;&lt;h3 id=&quot;less是一门css的预处理语言&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://chichengryota.github.io.git/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="less" scheme="https://chichengryota.github.io.git/tags/less/"/>
+    
+  </entry>
   
   <entry>
     <title>八个提升搜索效率的小技巧</title>
@@ -98,7 +218,7 @@
     <link href="https://chichengryota.github.io.git/2020/08/20/wo-de-di-yi-pian-bo-ke/"/>
     <id>https://chichengryota.github.io.git/2020/08/20/wo-de-di-yi-pian-bo-ke/</id>
     <published>2020-08-20T06:08:44.000Z</published>
-    <updated>2020-08-21T13:03:57.287Z</updated>
+    <updated>2020-10-06T02:57:33.979Z</updated>
     
     
       
