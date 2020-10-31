@@ -6,7 +6,7 @@
   <link href="https://chichengryota.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://chichengryota.github.io.git/"/>
-  <updated>2020-10-31T01:59:57.574Z</updated>
+  <updated>2020-10-31T03:23:07.842Z</updated>
   <id>https://chichengryota.github.io.git/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://chichengryota.github.io.git/2020/10/20/socket.io-gou-jian-liao-tian-shi/"/>
     <id>https://chichengryota.github.io.git/2020/10/20/socket.io-gou-jian-liao-tian-shi/</id>
     <published>2020-10-20T02:31:22.000Z</published>
-    <updated>2020-10-31T01:59:57.574Z</updated>
+    <updated>2020-10-31T03:23:07.842Z</updated>
     
     
       
@@ -97,7 +97,7 @@
     <link href="https://chichengryota.github.io.git/2020/09/20/js-shu-chu-xia-biao-de-ji-chong-fang-shi/"/>
     <id>https://chichengryota.github.io.git/2020/09/20/js-shu-chu-xia-biao-de-ji-chong-fang-shi/</id>
     <published>2020-09-20T08:29:33.000Z</published>
-    <updated>2020-10-06T03:12:28.564Z</updated>
+    <updated>2020-10-31T03:14:20.846Z</updated>
     
     
       
@@ -147,7 +147,7 @@
     <link href="https://chichengryota.github.io.git/2020/09/20/ajax-feng-zhuang/"/>
     <id>https://chichengryota.github.io.git/2020/09/20/ajax-feng-zhuang/</id>
     <published>2020-09-20T08:27:49.000Z</published>
-    <updated>2020-10-31T03:08:22.040Z</updated>
+    <updated>2020-10-31T03:11:58.821Z</updated>
     
     
       
@@ -164,6 +164,31 @@
     
     
     <category term="Ajax" scheme="https://chichengryota.github.io.git/tags/Ajax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo框架搭建博客</title>
+    <link href="https://chichengryota.github.io.git/2020/09/02/hexo-kuai-su-da-jian-bo-ke/"/>
+    <id>https://chichengryota.github.io.git/2020/09/02/hexo-kuai-su-da-jian-bo-ke/</id>
+    <published>2020-09-02T09:12:20.000Z</published>
+    <updated>2020-10-31T03:35:13.655Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;Hexo是一个静态博客框架，基于Node.js，将Markdown文章通过渲染引擎，生成一个静态网页，再结合Git命令（ssh），Hexo</summary>
+        
+      
+    
+    
+    
+    <category term="博客" scheme="https://chichengryota.github.io.git/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="hexo" scheme="https://chichengryota.github.io.git/tags/hexo/"/>
     
   </entry>
   

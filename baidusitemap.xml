@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://chichengryota.github.io.git/2020/09/02/hexo-kuai-su-da-jian-bo-ke/</loc>
+    <lastmod>2020-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://chichengryota.github.io.git/2020/10/20/socket.io-gou-jian-liao-tian-shi/</loc>
+    <lastmod>2020-10-31</lastmod>
+  </url>
+  <url>
+    <loc>https://chichengryota.github.io.git/2020/09/20/js-shu-chu-xia-biao-de-ji-chong-fang-shi/</loc>
+    <lastmod>2020-10-31</lastmod>
+  </url>
+  <url>
     <loc>https://chichengryota.github.io.git/2020/09/20/ajax-feng-zhuang/</loc>
     <lastmod>2020-10-31</lastmod>
   </url>
   <url>
     <loc>https://chichengryota.github.io.git/2020/10/06/zhai-chao-1/</loc>
-    <lastmod>2020-10-31</lastmod>
-  </url>
-  <url>
-    <loc>https://chichengryota.github.io.git/2020/10/20/socket.io-gou-jian-liao-tian-shi/</loc>
     <lastmod>2020-10-31</lastmod>
   </url>
   <url>
@@ -22,10 +30,6 @@
   </url>
   <url>
     <loc>https://chichengryota.github.io.git/2020/09/20/less-yu-fa-ji-chu/</loc>
-    <lastmod>2020-10-06</lastmod>
-  </url>
-  <url>
-    <loc>https://chichengryota.github.io.git/2020/09/20/js-shu-chu-xia-biao-de-ji-chong-fang-shi/</loc>
     <lastmod>2020-10-06</lastmod>
   </url>
   <url>

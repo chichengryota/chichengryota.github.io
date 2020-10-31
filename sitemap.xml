@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chichengryota.github.io.git/2020/09/02/hexo-kuai-su-da-jian-bo-ke/</loc>
+    
+    <lastmod>2020-10-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/2020/10/20/socket.io-gou-jian-liao-tian-shi/</loc>
+    
+    <lastmod>2020-10-31</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/2020/09/20/js-shu-chu-xia-biao-de-ji-chong-fang-shi/</loc>
+    
+    <lastmod>2020-10-31</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chichengryota.github.io.git/2020/09/20/ajax-feng-zhuang/</loc>
     
     <lastmod>2020-10-31</lastmod>
@@ -10,13 +31,6 @@
   
   <url>
     <loc>https://chichengryota.github.io.git/2020/10/06/zhai-chao-1/</loc>
-    
-    <lastmod>2020-10-31</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chichengryota.github.io.git/2020/10/20/socket.io-gou-jian-liao-tian-shi/</loc>
     
     <lastmod>2020-10-31</lastmod>
     
@@ -38,13 +52,6 @@
   
   <url>
     <loc>https://chichengryota.github.io.git/2020/09/20/less-yu-fa-ji-chu/</loc>
-    
-    <lastmod>2020-10-06</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chichengryota.github.io.git/2020/09/20/js-shu-chu-xia-biao-de-ji-chong-fang-shi/</loc>
     
     <lastmod>2020-10-06</lastmod>
     
@@ -144,6 +151,13 @@
   </url>
   
   <url>
+    <loc>https://chichengryota.github.io.git/tags/flex/</loc>
+    <lastmod>2020-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chichengryota.github.io.git/tags/Typora/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
@@ -158,14 +172,7 @@
   </url>
   
   <url>
-    <loc>https://chichengryota.github.io.git/tags/flex/</loc>
-    <lastmod>2020-10-31</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://chichengryota.github.io.git/tags/javascript/</loc>
+    <loc>https://chichengryota.github.io.git/tags/hexo/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -173,6 +180,13 @@
   
   <url>
     <loc>https://chichengryota.github.io.git/tags/less/</loc>
+    <lastmod>2020-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/tags/javascript/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -202,7 +216,7 @@
   </url>
   
   <url>
-    <loc>https://chichengryota.github.io.git/categories/%E6%8A%80%E5%B7%A7/</loc>
+    <loc>https://chichengryota.github.io.git/categories/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -210,6 +224,13 @@
   
   <url>
     <loc>https://chichengryota.github.io.git/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2020-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chichengryota.github.io.git/categories/%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
