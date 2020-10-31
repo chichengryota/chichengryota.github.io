@@ -6,7 +6,7 @@
   <link href="https://chichengryota.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://chichengryota.github.io.git/"/>
-  <updated>2020-10-06T03:34:15.316Z</updated>
+  <updated>2020-10-31T01:59:57.574Z</updated>
   <id>https://chichengryota.github.io.git/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>一些打动人心的句子</title>
-    <link href="https://chichengryota.github.io.git/2020/10/06/zhai-chao/"/>
-    <id>https://chichengryota.github.io.git/2020/10/06/zhai-chao/</id>
+    <title>socket.io构建聊天室</title>
+    <link href="https://chichengryota.github.io.git/2020/10/20/socket.io-gou-jian-liao-tian-shi/"/>
+    <id>https://chichengryota.github.io.git/2020/10/20/socket.io-gou-jian-liao-tian-shi/</id>
+    <published>2020-10-20T02:31:22.000Z</published>
+    <updated>2020-10-31T01:59:57.574Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;vue-node-socket-io构建在线聊天室&quot;&gt;&lt;a href=&quot;#vue-node-socket-io构建在线聊天室&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://chichengryota.github.io.git/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="websocket" scheme="https://chichengryota.github.io.git/tags/websocket/"/>
+    
+    <category term="socket.io" scheme="https://chichengryota.github.io.git/tags/socket-io/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>打动人心的句子(一)</title>
+    <link href="https://chichengryota.github.io.git/2020/10/06/zhai-chao-1/"/>
+    <id>https://chichengryota.github.io.git/2020/10/06/zhai-chao-1/</id>
     <published>2020-10-06T03:04:40.000Z</published>
-    <updated>2020-10-06T03:34:15.316Z</updated>
+    <updated>2020-10-31T02:01:44.047Z</updated>
     
     
       
@@ -120,7 +147,7 @@
     <link href="https://chichengryota.github.io.git/2020/09/20/ajax-feng-zhuang/"/>
     <id>https://chichengryota.github.io.git/2020/09/20/ajax-feng-zhuang/</id>
     <published>2020-09-20T08:27:49.000Z</published>
-    <updated>2020-10-06T03:47:02.518Z</updated>
+    <updated>2020-10-31T03:08:22.040Z</updated>
     
     
       
@@ -137,6 +164,33 @@
     
     
     <category term="Ajax" scheme="https://chichengryota.github.io.git/tags/Ajax/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git&amp;GitHub常用指令</title>
+    <link href="https://chichengryota.github.io.git/2020/08/21/git-github-chang-yong-zhi-ling/"/>
+    <id>https://chichengryota.github.io.git/2020/08/21/git-github-chang-yong-zhi-ling/</id>
+    <published>2020-08-21T08:12:22.000Z</published>
+    <updated>2020-10-31T01:50:02.289Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Git-amp-GitHub常用指令&quot;&gt;&lt;a href=&quot;#Git-amp-GitHub常用指令&quot; class=&quot;headerlink&quot; title=&quot;Git&amp;amp;GitHub常用指令&quot;&gt;&lt;/a&gt;Git&amp;amp;GitHub常用指令&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="笔记" scheme="https://chichengryota.github.io.git/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="git" scheme="https://chichengryota.github.io.git/tags/git/"/>
+    
+    <category term="github" scheme="https://chichengryota.github.io.git/tags/github/"/>
     
   </entry>
   
@@ -191,38 +245,11 @@
   </entry>
   
   <entry>
-    <title>Git&amp;GitHub常用指令</title>
-    <link href="https://chichengryota.github.io.git/2020/08/20/git-github-chang-yong-zhi-ling/"/>
-    <id>https://chichengryota.github.io.git/2020/08/20/git-github-chang-yong-zhi-ling/</id>
-    <published>2020-08-20T08:12:22.000Z</published>
-    <updated>2020-08-22T01:37:16.480Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Git-amp-GitHub常用指令&quot;&gt;&lt;a href=&quot;#Git-amp-GitHub常用指令&quot; class=&quot;headerlink&quot; title=&quot;Git&amp;amp;GitHub常用指令&quot;&gt;&lt;/a&gt;Git&amp;amp;GitHub常用指令&lt;/h1&gt;&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="笔记" scheme="https://chichengryota.github.io.git/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="git" scheme="https://chichengryota.github.io.git/tags/git/"/>
-    
-    <category term="github" scheme="https://chichengryota.github.io.git/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
     <title>我的第一篇博客</title>
     <link href="https://chichengryota.github.io.git/2020/08/20/wo-de-di-yi-pian-bo-ke/"/>
     <id>https://chichengryota.github.io.git/2020/08/20/wo-de-di-yi-pian-bo-ke/</id>
     <published>2020-08-20T06:08:44.000Z</published>
-    <updated>2020-10-06T02:57:33.979Z</updated>
+    <updated>2020-10-31T01:53:38.844Z</updated>
     
     
       
